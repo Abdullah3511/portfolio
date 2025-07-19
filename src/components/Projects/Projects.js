@@ -23,7 +23,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="TradeSquare"
-              description="A local community-driven web application for buying, selling, bartering, and participating in time-limited double auctions. Built with React.js, Spring Boot, and MySQL, this platform allows users to list second-hand items, exchange goods, dropship products, and engage in one-hour auctions. Features include product ratings, like/dislike options, location-based item visibility, and real-time listing updates."
+              description="Developed a location-based web marketplace enabling users to buy/sell second-hand items, barter products, and participate in time-limited (double) auctions. The platform is built using React.js for the frontend and Spring Boot for backend RESTful APIs, with MySQL as the database. Features include real-time product listing updates, filter/sort functionality, user profiles with ratings and reviews, and unique modules for bartering and dropshipping. Designed and implemented a robust database schema to manage auctions, bids, timing, and user transactions."
               ghLink="https://github.com/Abdullah3511/Backend"
             />
           </Col>
