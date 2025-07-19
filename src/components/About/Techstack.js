@@ -6,7 +6,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiJava,  
 } from "react-icons/di";
 
 function Techstack() {
