@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,35 +18,43 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            My passion for programming has driven me to constantly learn and evolve. With each project, I sharpen my skills and expand my understanding of modern development
+              Results-driven Full Stack Developer with 1+ year of professional
+              experience building production-grade MERN stack applications and
+              scalable backend systems.
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Java, Spring boot , Javascript, Python, React js, Hibernate, Sql, and Docker </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Devops and Cloud.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Java</b> and
+              <br />I am proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  Spring boot and Mysql and modern Javascript libraries
+                  JavaScript (ES6+), TypeScript, Java, Python, React.js, Next.js,
+                  Node.js, and Express.js{" "}
                 </b>
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              My areas of interest include building &nbsp;
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">
+                  MERN Stack Applications, Real-Time Systems, and API
+                  Integrations{" "}
+                </b>
+                and also in areas related to{" "}
+                <b className="purple">
+                  System Design, Cloud Technologies, and Backend Architecture.
+                </b>
+              </i>
+              <br />
+              <br />
+              Previously at <b className="purple">Versori (UK)</b>, I built
+              automation solutions and integrated enterprise systems across
+              REST, SOAP, and GraphQL APIs. Currently at{" "}
+              <b className="purple">Phebsoft</b>, I lead backend development
+              using
+              <i>
+                <b className="purple">
+                  {" "}
+                  Node.js, Express.js, MongoDB, and React/Next.js
+                </b>
               </i>
             </p>
           </Col>
@@ -74,20 +81,9 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/abdullahtayyab035"
-
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

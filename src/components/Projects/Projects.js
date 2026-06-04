@@ -22,9 +22,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="TradeSquare"
-              description="Developed a location-based web marketplace enabling users to buy/sell second-hand items, barter products, and participate in time-limited (double) auctions. The platform is built using React.js for the frontend and Spring Boot for backend RESTful APIs, with MySQL as the database. Features include real-time product listing updates, filter/sort functionality, user profiles with ratings and reviews, and unique modules for bartering and dropshipping. Designed and implemented a robust database schema to manage auctions, bids, timing, and user transactions."
-              ghLink="https://github.com/Abdullah3511/Backend"
+              title="Matchwise: AI-Powered Skill & Compatibility Analysis"
+              description="Developed the backend of an AI-powered career analysis platform using Node.js, Express.js, and MySQL. Implemented AI-driven skill analysis workflows using OpenAI APIs with structured JSON response enforcement. Integrated O*NET occupational datasets for compatibility scoring, building complex data mapping and processing pipelines. Implemented Firebase Authentication for secure user management."
+              ghLink="https://github.com/Abdullah3511"
             />
           </Col>
 
@@ -32,22 +32,21 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="E-Commerce Web Application"
-              description="A full-stack e-commerce application for managing products and orders with admin and user functionality. Users can browse products by category, add or remove items from the cart, and place orders, while admins can manage inventory and categories. Developed using Spring Boot for backend and React.js for frontend, ensuring dynamic interaction and smooth user experience."
-              ghLink="https://github.com/Abdullah3511/PersonalBrandProject"              
+              title="TradeSquare: Real-Time Dual Auction Marketplace"
+              description="Built a full-stack marketplace with dual auction (buy/sell + bartering) supporting concurrent real-time bidding via WebSockets. Implemented role-based access control, secure JWT authentication, and session management. Optimized MongoDB aggregation pipelines and indexing strategies for high-volume bidding operations. Designed the backend architecture from scratch including data modeling, API structure, and real-time event handling."
+              ghLink="https://github.com/Abdullah3511/Backend"
             />
           </Col>
 
-            <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Rent Car Managment"
-              description="A desktop-based application built using Core Java for managing car rentals, returns, and customer records without using a database. The system uses Java File I/O for persistent data storage. It includes modules for vehicle registration, booking management, customer details, rental history, and availability tracking."
-              ghLink="https://github.com/Abdullah3511/Rent-Car-Managment"
+              title="Offline ERP Desktop Application"
+              description="Engineered a fully offline ERP desktop system using Electron and better-sqlite3 with automated local backup and recovery. Secured the application with machine-bound JWT licensing to prevent unauthorized redistribution. Designed a modern, responsive UI with React and Tailwind CSS; optimized SQLite queries for datasets exceeding 100K rows."
+              ghLink="https://github.com/Abdullah3511"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
